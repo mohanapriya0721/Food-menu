@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap');
+
+* {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+
+.nav-link{
+    text-decoration: none !important;
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color:#000000;
+}
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+}
+.header-logo {
+    font-size: 18px;
+    font-weight: 600 ;
+    font-family: "Lobster";
+}
+
+.header-dot {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+
+.padding-aline {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.header-icon {
+    font-size: 25px;
+}
+.wid-50 {
+    width: 620px;
+    height: 550px;
+    background-color: #E7FAFE;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    
+}
+ .white-circle {
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.paper-icon img {
+    width: 20px;
+    height: 20px;
+}
+.spicy-font{
+    width:520px;
+    height:154px;
+}
+.text-font {
+    font-family: "Inter", sans-serif;
+    width:600px;
+    font-size: 64px;
+}
+.para-box{
+    width:520px;
+    height:56px;
+}
+.para-text{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #00000099;
+}
+.box-1{
+     background-color:#0000000D;
+     border-radius: 30px;
+     width:139px;
+     height:40px;
+     align-content: center;
+     width:fit-content;
+     
+}
+.icon-1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500px;
+    font-size: 14px;
+    border-radius: 30px;
+    height:24px;
+    width:107px;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    
+}
+.timer-icon{
+    width: 24px;
+    height: 24px;
+    color:black
+}
+.box-2{
+     background-color:#0000000D;
+     border-radius: 30px;
+     width:139px;
+     height:40px;
+     align-content: center;
+     width:fit-content;
+}
+.icon-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500px;
+    font-size: 14px;
+    border-radius: 30px;
+    height:24px;
+    width:107px;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+}
+.spoon-icon{
+    width: 24px;
+    height: 24px;
+    color: black;
+}
+.person-details{
+    width:163px;
+    height:50px; 
+    margin-left: 20px;  
+}
+
+.name-john{
+    width:100px;
+    height:19px;  
+}
+.name-spell{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1%;
+}
+.box-3{
+    width:200px;
+    height:55px;
+    background-color: rgb(0, 0, 0);
+    margin-left:200px;
+    border-radius: 16px;
+    border: none;
+    width:fit-content;
+}
+.inner-box-3{
+    padding:16px;
+    display:flex;
+    
+}
+.recipes-word {
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+.play-icon{
+    color:white;
+    width:24px;
+    height:24px;
+    
+}
+.hand-pic{
+    position: absolute;
+    margin-left: 43%;
+    margin-top:30px;
+}
+.wid-40 img{
+    width:660px;
+    height:550px;
+    object-fit: cover;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.category-box{
+    width:1280px;
+    height:342px;
+}
+.category-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    
+}
+.category-button{
+    width:200px;
+    height:60px;
+    border-radius: 16px;
+    border-color:#E7FAFE;
+    border:none;
+    background-color: #E7FAFE;
+    font-family: "Inter", sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+}
+.category-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:40px;
+    width:1280px;
+    height:202px;
+}
+.category-card{
+    padding:20px;
+    width:180px;
+    height:202px;
+    border-radius:15px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 12px  rgba(0,0,0,0.1) ;
+    text-align: center;
+    min-width:120px;
+}
+.category-icon img{
+   width:100px;
+    margin-bottom:10px;
+}
+.category-label{
+    font-weight:bold;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.simple-title {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight:600;
+    font-size:40px;
+}
+.para-lorem{
+
+    color: #00000099;
+    font-family: "Inter", sans-serif;
+    font-weight:600;
+    font-size:16px;
+    text-align: center;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    
+}
+.p-tag{
+    width: 100%;
+}
+
+.card{
+    background-color:#E7F9FD;
+    width:25%;
+    border-radius: 50px;
+}
+.card-img img{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+}
+.card-title-div{
+    width:350px;
+}
+.card-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size:14px;
+    line-height: 12px;
+    width:300px;
+}
+
+.timer-icon.spoon-icon{
+    width:14px;
+}
+
+.chef-div{
+    width:526px;
+    border-radius: 16px;
+}
+.chef-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:48px;
+    line-height: 100%;
+}
+.chef-para{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 28px;
+}
+.button-box{
+    width:180px;
+    height:60px;
+    border-radius: 16px;
+    border:none;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    line-height:100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+.chef-img img{
+    width:700px;
+    height:597px;
+}
+.card-div{
+    width:100%;
+    height:auto;
+    border-radius: 30px;
+    background-color: #E7F9FD;
+    overflow:hidden;
+}
+.cutveg-img{
+    width:370px;
+    height:400px;
+   
+}
+.foodbowl-img{
+    width:370px;
+    height:400px;
+    
+} 
+ .card-details{
+    width:700px;
+    align-content: center;
+}
+.card-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:25px;
+    line-height:100%;
+}
+.card-para{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height:28px;
+}
+.form-letter{
+    border-radius: 24px;
+    background-color: #ffffff;
+    
+}
+.card-email{
+    width:480px;
+    height:60px;
+    border-radius:24px;
+    border:none;
+    outline: none;
+    
+}
+.card-button{
+    width:160px;
+    height:60px;
+    border-radius:16px;
+    border: none;
+    background-color: #000000;
+    color:#ffffff
+}
+.form-frame{
+    width:100%;
+    height:fit-content;
+}
+.form-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:50px;
+    line-height:28px;
+    text-align: center;
+}
+.form-chef{
+    width:350px;
+    height:472px;
+}
+.form-box{
+    width:100%px;
+    height:max-content;
+}
+.name-input{
+    width:400px;
+    height:60px;
+    border-radius: 16px;
+    border: 2px solid #0000001A;
+    text-align:justify;
+}
+.subject-input{
+    width:400px;
+    height:60px;
+    border-radius: 16px;
+    border: 2px solid #0000001A;
+}
+.email-input{
+    width:400px;
+    height:60px;
+    border-radius: 16px;
+    border: 2px solid #0000001A;
+}
+.enquiry-input{
+    width:400px;
+    height:60px;
+    border-radius: 16px;
+    border: 2px solid #0000001A;
+}
+.textarea-box{
+    width:840px;
+    height:200px;
+    border-radius: 16px;
+    border: 2px solid #0000001A;
+}
+.form-button{
+    background-color: #000000;
+    color: #ffffff;
+    width:180px;
+    height:64px;
+    border-radius:16px;
+}
+.fourcard-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:36px;
+    line-height:100%;
+   
+}
+.fruitsalad-img{
+    width:290px;
+    height:200px;
+    border-radius:20px;
+}
+.fruitsalad-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    line-height:26px;
+    width:290px;
+}
+.beefmeat-img{
+    width:290px;
+    height:200px;
+    border-radius:20px;
+}
+.beefmeat-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    line-height:26px;
+    width:290px;
+}
+.eggrice-img{
+    width:290px;
+    height:200px;
+    border-radius:20px;
+}
+.eggrice-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    line-height:26px;
+    width:290px;
+}
+.chickenroll-img{
+    width:290px;
+    height:200px;
+    border-radius:20px;
+}
+.chickenroll-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    line-height:26px;
+    width:290px;
+}
+.footer{
+    width:100%;
+    height: fit-content;
+}
+.footer-webflow{
+    color: #cc0505;
+}
+.recipe_heading{
+   background-color: rgb(226, 226, 226);
+}
+.recipes-page{
+    margin: 5px;
+    padding: 5px;
+}
+.img-fluid{
+    width:300px;
+    height:200px;
+    border-radius: 30px;
+}
+.recipes-name{
+    font-size: 20px;
+    font-weight: 500;
+    margin:10px;
+}
+.recipes-cooktime{
+    margin:10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.recipes-button{
+    margin:10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#ffffff;
+}
+.viewrecipe-heading{
+    background-color:rgb(226, 226, 226);
+}
+.veiwrecipe-img-1{
+    width:300px;
+    padding-left:10px;
+}
+.veiwrecipe-div2{
+    font-size: 15px;
+    font-weight: 500;
+    width: 40%;
+}
+.viewrecipe-div3{
+    width:50%;
+}
+.blog-heading{
+    background-color: gainsboro;
+}
+.aboutus-heading{
+    background-color: gainsboro;
+}
+.aboutus-para{
+    margin:15px;
+}
+.login-heading{
+     background-color: gainsboro;
+}
+.error {
+  border: 1px solid red; /* red border for error */
+}
+.login-box2{
+    width: full;
+    height: 300px;
+}
+.login-box2 label{
+    width: 130px;
+    height: 30px;
+}
+.login-box2 input{
+    width: 300px;
+    height: 40px;
+    border:1px solid;
+    border-radius: 5px;
+    border-color:rgb(184, 180, 180);
+}
+.login-button{
+    border:1px solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    margin-left: 810px;
+    margin-top: 50px;
+}
+@media screen and (max-width:1024px) {
+
+    .h{
+        font-size: 20px;
+    }
+    .p-tag{
+    color:#d67777;
+    }
+    .card {
+        width: 300px;
+    }
+    .card-img img{
+        width:95%;
+        height:170px;
+        object-fit: cover;
+    }
+    .card-title-div{
+        width:252px;
+    }
+    .card-title{
+        font-weight: 600;
+        font-size:14px;
+        line-height: 22px;
+    }
+    .timer-icon.spoon-icon{
+        width:14px;
+    }
+    .ads-img{
+        width:95%;
+        height:200px;
+        object-fit:cover;
+        object-position: center;
+    }
+}

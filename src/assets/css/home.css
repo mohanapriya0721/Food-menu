@@ -6,8 +6,6 @@
     padding-right: 0px;
     margin: 0px;
 }
-
-
 .nav-link{
     text-decoration: none !important;
     list-style: none;
@@ -44,7 +42,7 @@
 .wid-50 {
     width: 620px;
     height: 550px;
-    background-color: #E7FAFE;
+    background-color: #c9f1f8;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     padding: 2%;
@@ -572,8 +570,11 @@
     width: 100px;
     height: 35px;
     margin-left: 810px;
+    background-color: rgb(193, 201, 206);
     margin-top: 50px;
 }
+
+
 @media screen and (max-width:1024px) {
 
     .h{

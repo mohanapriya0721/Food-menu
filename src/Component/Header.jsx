@@ -24,9 +24,6 @@ const Header = () => {
                             <NavLink className="nav-link" to="/recipess">Recipes</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/blog">Blog</NavLink>
-                        </li>
-                        <li className="nav-item">
                             <NavLink className="nav-link" to="/contact">Contact</NavLink>
                         </li>
                         <li className="nav-item">
@@ -39,7 +36,7 @@ const Header = () => {
                         <TiSocialFacebook className='fs-4 cursor-pointer' />
                         <FaTwitter className='fs-4 cursor-pointer' />
                         <LuInstagram className='fs-4 cursor-pointer' />
-                        <NavLink className='nav-link' to='/login'><button onClick={() => login} className='btn btn-outline-primary ms-2'>Login</button></NavLink>
+                        <NavLink className='nav-link' to='/login'><button onClick={() => login} className='btn btn-outline-secondary ms-2'>Login</button></NavLink>
                 </div>
             </div>
         </section>
